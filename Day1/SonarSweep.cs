@@ -5,20 +5,15 @@ namespace Day1
 {
     public class SonarSweep
     {
-        public int CountdepthMeasurementIncrease(string[] depthMeasurementsStrings)
+        public int CountdepthMeasurementIncrease()
         {
             var depthMeasurementIncrease = 0;
 
-            var depthMeasurements = DepthMeasurementsToInt(depthMeasurementsStrings);
+            var depthMeasurements = DepthMeasurementst();
 
-
-            for (int i = 0; i < depthMeasurements.Count; i++)
+            for (int i = 1; i < depthMeasurements.Count; i++)
             {
-                if (i == 0)
-                {
-                    continue;
-                }
-                else if(depthMeasurements[i] > depthMeasurements[i-1])
+                if (depthMeasurements[i] > depthMeasurements[i-1])
                 {
                     depthMeasurementIncrease += 1;
                 }
@@ -27,13 +22,15 @@ namespace Day1
             return depthMeasurementIncrease;
         }
 
-        public int CountThreeMeasurementSlidingWindow(string[] depthMeasurementsStrings)
-        {
+        //public int CountThreeMeasurementSlidingWindow(string[] depthMeasurementsStrings)
+        //{
+        //    var depthMeasurements = DepthMeasurementsToInt(depthMeasurementsStrings);
+        //}
 
-        }
-
-        private List<int> DepthMeasurementsToInt(string[] depthMeasurementsStrings)
+        private List<int> DepthMeasurementst()
         {
+            string[] depthMeasurementsStrings = System.IO.File.ReadAllLines(@"C:\repos\adventofcode\Day1\puzzle1.txt");
+
             var depthMeasurements = new List<int>();
 
             foreach (var depthMeasurementsString in depthMeasurementsStrings)

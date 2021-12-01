@@ -1,5 +1,4 @@
 ﻿using System;
-using Day1;
 
 namespace Day1
 {
@@ -7,9 +6,7 @@ namespace Day1
     {
         static void Main(string[] args)
         {
-            string[] depthMeasurementsStrings = System.IO.File.ReadAllLines(@"C:\repos\adventofcode\Day1\puzzle1.txt");
-
-            var kaka = new SonarSweep().CountdepthMeasurementIncrease(depthMeasurementsStrings);
+            var kaka = new SonarSweep().CountdepthMeasurementIncrease();
 
             Console.WriteLine(kaka);
         }
