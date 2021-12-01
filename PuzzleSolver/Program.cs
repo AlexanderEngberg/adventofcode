@@ -1,4 +1,5 @@
 ﻿using System;
+using Day1;
 
 namespace Day1
 {
@@ -6,7 +7,7 @@ namespace Day1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var kaka = new;
         }
     }
 }

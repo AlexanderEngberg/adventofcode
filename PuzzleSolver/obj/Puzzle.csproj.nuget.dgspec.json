@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\repos\\adventofcode\\PuzzleSolver\\Puzzle.csproj": {}
+    "c:\\repos\\adventofcode\\PuzzleSolver\\Puzzle.csproj": {}
   },
   "projects": {
-    "C:\\repos\\adventofcode\\PuzzleSolver\\Puzzle.csproj": {
+    "c:\\repos\\adventofcode\\PuzzleSolver\\Puzzle.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\repos\\adventofcode\\PuzzleSolver\\Puzzle.csproj",
+        "projectUniqueName": "c:\\repos\\adventofcode\\PuzzleSolver\\Puzzle.csproj",
         "projectName": "Puzzle",
-        "projectPath": "C:\\repos\\adventofcode\\PuzzleSolver\\Puzzle.csproj",
+        "projectPath": "c:\\repos\\adventofcode\\PuzzleSolver\\Puzzle.csproj",
         "packagesPath": "C:\\Users\\ae957066\\.nuget\\packages\\",
-        "outputPath": "C:\\repos\\adventofcode\\PuzzleSolver\\obj\\",
+        "outputPath": "c:\\repos\\adventofcode\\PuzzleSolver\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ae957066\\AppData\\Roaming\\NuGet\\NuGet.Config",
