@@ -7,7 +7,11 @@ namespace Day1
     {
         static void Main(string[] args)
         {
-            var kaka = new;
+            string[] depthMeasurementsStrings = System.IO.File.ReadAllLines(@"C:\repos\adventofcode\Day1\puzzle1.txt");
+
+            var kaka = new SonarSweep().CountdepthMeasurementIncrease(depthMeasurementsStrings);
+
+            Console.WriteLine(kaka);
         }
     }
 }

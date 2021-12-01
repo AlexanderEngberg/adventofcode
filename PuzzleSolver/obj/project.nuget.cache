@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "E7sxy4dBZLWPbeSgClprWZibz/iV/cHJmv0V2z06+JN2jd2cHniOZ4X1lK0GInGdgWsGN6Wy/bS34kp5TnqA2g==",
+  "dgSpecHash": "PGCUg/CYs5PkPIIGmGbFOv3loJGUl+dC9FWGK4hFPPjGd5UPb/iAytxGb4/4gUy1zqDr5qxUIe95sOMeDYNSsQ==",
   "success": true,
-  "projectFilePath": "c:\\repos\\adventofcode\\PuzzleSolver\\Puzzle.csproj",
+  "projectFilePath": "C:\\repos\\adventofcode\\PuzzleSolver\\Puzzle.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

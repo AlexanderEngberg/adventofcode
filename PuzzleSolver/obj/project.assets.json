@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "Day1/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Day1.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Day1.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Day1/1.0.0": {
+      "type": "project",
+      "path": "../Day1/Day1.csproj",
+      "msbuildProject": "../Day1/Day1.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "Day1 >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\ae957066\\.nuget\\packages\\": {}
@@ -33,7 +52,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\repos\\adventofcode\\Day1\\Day1.csproj": {
+              "projectPath": "C:\\repos\\adventofcode\\Day1\\Day1.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
